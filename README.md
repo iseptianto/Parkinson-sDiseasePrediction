@@ -36,48 +36,6 @@ The model is trained using the "Parkinson's Disease Dataset" from the UCI Machin
   - **Language**: Python 3.8+
   - **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, XGBoost
 
-### 🚀 Installation and Usage
-
-1.  **Clone this repository:**
-
-    ```bash
-    git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-    cd YOUR_REPOSITORY_NAME
-    ```
-
-2.  **Create and activate a virtual environment:**
-
-    ```bash
-    python -m venv venv
-    # Windows: .\venv\Scripts\activate | macOS/Linux: source venv/bin/activate
-    ```
-
-3.  **Install the required dependencies:**
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4.  **Run the Jupyter Notebook:**
-
-    ```bash
-    jupyter notebook notebooks/parkinson_prediction_analysis.ipynb
-    ```
-
-### 📁 Project Structure
-
-```
-.
-├── data/
-│   └── parkinsons.csv
-├── notebooks/
-│   └── parkinson_prediction_analysis.ipynb
-├── models/
-│   └── xgboost_model.pkl
-├── requirements.txt
-└── README.md
-```
-
 ### 🤖 Model and Evaluation
 
 The **XGBoost Classifier** model was chosen for its superior performance on tabular datasets and its ability to handle class imbalance. All numerical features were scaled using `StandardScaler` to ensure optimal model performance.
